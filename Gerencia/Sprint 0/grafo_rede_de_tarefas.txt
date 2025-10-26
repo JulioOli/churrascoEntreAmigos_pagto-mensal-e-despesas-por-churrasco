@@ -1,0 +1,84 @@
+### GRAFO DA REDE DE TAREFAS PARALELA ###
+                          (Cronograma Otimizado)
+
+========================= SPRINT 0 =========================
+                          (51 dias)
+
+[INÍCIO] --> [1.1 (3d)] --> [1.2 (10d)] --> [1.2.1 (8d)] --+
+                                                          |
+                 +----------------------------------------+-----------------------------------------+
+                 |                                                                                   |
+                 v (Caminho A - Documentação)                                                        v (Caminho B - Desenvolvimento)
+           [1.3 (6d)] --> [1.3.1 (4d)]                                                          [1.4 (6d)] --> [1.4.1 (4d)] --> [1.5 (6d)] --> [1.5.1 (4d)] --> [1.6 (6d)] --> [1.6.1 (4d)]
+                 |                                                                                   |
+                 +-------------------------------------------+ (CONVERGÊNCIA) +--------------------+
+                                                             |
+                                                             v
+
+========================= SPRINT 1 =========================
+                          (13 dias)
+
+                                                         [2.1 (1d)]
+                                                             |
+                                                 +----[PARALELO INÍCIO]----+
+                                                 |                         |
+                                                 v                         v
+                                       (Equipe A - Documentação)      (Equipe B - Código)
+                                    [2.1.1 (3d)]                       [2.2 (8d)]
+                                         |
+                                         v
+                                    [2.1.2 (2d)]
+                                         |
+                                         v
+                                    [2.1.3 (1d)]
+                                         |                         |
+                                         +------[SINCRONIZAÇÃO]------+
+                                                             |
+                                                             v
+                                                         [2.3 (3d)]
+                                                             |
+                                                             v
+                                                         [2.4 (1d)]
+                                                             |
+                                                             v
+
+========================= SPRINT 2 =========================
+                          (11 dias)
+
+                                                         [3.1 (1d)]
+                                                             |
+                                               +-----[PARALELO MÁXIMO]-----+
+                                               |             |             |
+                                               v             v             v
+                                      (Dev 1) [3.2a]  (Dev 2) [3.2b]  (Dev 3) [3.2c]
+                                        (Pgtos 4d)   (Auto Pgtos 4d)   (Contas 4d)
+                                               |             |             |
+                                               +-----[INTEGRAÇÃO]----------+
+                                                             |
+                                                             v
+                                                   [3.2d - Integração (2d)]
+                                                             |
+                                                             v
+                                                      [3.3 - Testes (4d)]
+                                                             |
+                                                             v
+
+========================= SPRINT 3 =========================
+                           (4 dias)
+
+                                                         [4.1 (1d)]
+                                                             |
+                                               +------[PARALELO FINAL]------+
+                                               |             |             |
+                                               v             v             v
+                                        [Bugs Críticos]  [Testes Reg.] [Prep. Entrega]
+                                             (2d)          (2d)          (2d)
+                                               |             |             |
+                                               +------[FINALIZAÇÃO]---------+
+                                                             |
+                                                             v
+                                                    [4.4 - Entrega (1d)]
+                                                             |
+                                                             v
+                                                     [FIM DO PROJETO]
+                                                (Total: 79 dias úteis)
