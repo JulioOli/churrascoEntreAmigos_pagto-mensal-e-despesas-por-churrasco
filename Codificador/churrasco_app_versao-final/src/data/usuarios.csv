@@ -1,0 +1,8 @@
+id;nome;email;senha;papel
+5f534d81-7dd6-425d-bc89-11241507a049;Guilherme;gui@gmail.com;guilherme;Administrador
+d8c2eb69-4d25-4413-8728-6e6cc56708dc;Julio Oliveira Santana;julio.o.santana@unesp;kkfdc45;Administrador
+c2bec840-def9-4357-bf4a-9033698dbebb;Julio Oliveira Santana;julio.o.santana@unesp.br;kkfdc45;Administrador
+6636fdf0-77b2-4dbd-871a-d97607bdf9ed;aaaaa;aaa;123;Usuário
+d06c54d1-7736-4af2-8f1c-436fbe4754ff;joaozinho;jaozin@unesp.br;123456;Usuário
+7e602149-aa86-4d02-9159-5ac815624240;teste;teste@gmail.com;teste123;Administrador
+965a28ce-65cd-4e58-8fd0-f6cb081f4d7c;teste2;teste2@gmail.com;teste2123;Administrador
